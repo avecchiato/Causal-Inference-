@@ -1,0 +1,56 @@
+\documentclass[9pt]{article}
+\usepackage{inputenc}
+\usepackage[hmargin=1.5cm,vmargin=2cm]{geometry} %set horizontal and vertical margins
+\usepackage{setspace} %to change space between lines
+\singlespace
+% Math extension from the American Mathematical Society
+\usepackage{amssymb} % high quality math symbols
+\usepackage{amsmath} % high quality math formulas
+\usepackage{booktabs} % publication quality tables
+\usepackage{graphicx} % importation of graphics files
+\usepackage{dcolumn}
+\usepackage{lscape}
+\usepackage[verbose]{placeins}
+\usepackage[english]{babel}
+\usepackage{blindtext}
+\usepackage{graphicx,rotating,booktabs}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+%Redefining sections as problems
+\makeatletter
+\newenvironment{exercise}{\@startsection
+       {section}
+       {1}
+       {-.2em}
+       {-3.5ex plus -1ex minus -.2ex}
+       {2.3ex plus .2ex}
+       {\pagebreak[3]%forces pagebreak when space is small; use \eject for better results
+       \large\bf\noindent{Exercise }
+       }
+       }
+       {%\vspace{1ex}\begin{center} \rule{0.3\linewidth}{.3pt}\end{center}}
+       }
+\makeatother
+\renewcommand{\labelenumi}{(\alph{enumi})}
+\renewcommand{\labelenumii}{\roman{enumii}}
+\begin{document}
+
+\title{Quantitative Political Analysis II, Homework 2}
+\author{Alessandro Vecchiato}
+\date{\today}
+\maketitle
+
+\begin{exercise}
+
+\end{exercise}
+
+\begin{exercise}
+\begin{enumerate}
+\item \begin{itemize}
+\item The authors propose three assumptions. The first assumption is that, given that the CESS surveys are exhibit a short time period between the interviews and the intervening political change, it is plausible to assume that the {\it effects} of non-political background effects
+\end{itemize}
+\item 
+\end{enumerate}
+\end{exercise}
+\end{document}
